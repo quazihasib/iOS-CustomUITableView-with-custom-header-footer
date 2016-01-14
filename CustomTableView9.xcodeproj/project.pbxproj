@@ -15,6 +15,8 @@
 		28F06BFA1C477EEA0080CE06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F06BF81C477EEA0080CE06 /* LaunchScreen.storyboard */; };
 		28F06C051C477EEA0080CE06 /* CustomTableView9Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F06C041C477EEA0080CE06 /* CustomTableView9Tests.m */; };
 		28F06C101C477EEA0080CE06 /* CustomTableView9UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F06C0F1C477EEA0080CE06 /* CustomTableView9UITests.m */; };
+		28F06C1F1C477FBC0080CE06 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F06C1E1C477FBC0080CE06 /* CustomCell.m */; };
+		28F06C211C4788280080CE06 /* image2.png in Resources */ = {isa = PBXBuildFile; fileRef = 28F06C201C4788280080CE06 /* image2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		28F06C0B1C477EEA0080CE06 /* CustomTableView9UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTableView9UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F06C0F1C477EEA0080CE06 /* CustomTableView9UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTableView9UITests.m; sourceTree = "<group>"; };
 		28F06C111C477EEA0080CE06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28F06C1D1C477FBC0080CE06 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		28F06C1E1C477FBC0080CE06 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		28F06C201C4788280080CE06 /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +111,8 @@
 				28F06BF01C477EEA0080CE06 /* ViewController.h */,
 				28F06BF11C477EEA0080CE06 /* ViewController.m */,
 				28F06BF31C477EEA0080CE06 /* Main.storyboard */,
+				28F06C1D1C477FBC0080CE06 /* CustomCell.h */,
+				28F06C1E1C477FBC0080CE06 /* CustomCell.m */,
 				28F06BF61C477EEA0080CE06 /* Assets.xcassets */,
 				28F06BF81C477EEA0080CE06 /* LaunchScreen.storyboard */,
 				28F06BFB1C477EEA0080CE06 /* Info.plist */,
@@ -117,6 +124,7 @@
 		28F06BEA1C477EEA0080CE06 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				28F06C201C4788280080CE06 /* image2.png */,
 				28F06BEB1C477EEA0080CE06 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -248,6 +256,7 @@
 			files = (
 				28F06BFA1C477EEA0080CE06 /* LaunchScreen.storyboard in Resources */,
 				28F06BF71C477EEA0080CE06 /* Assets.xcassets in Resources */,
+				28F06C211C4788280080CE06 /* image2.png in Resources */,
 				28F06BF51C477EEA0080CE06 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +284,7 @@
 			files = (
 				28F06BF21C477EEA0080CE06 /* ViewController.m in Sources */,
 				28F06BEF1C477EEA0080CE06 /* AppDelegate.m in Sources */,
+				28F06C1F1C477FBC0080CE06 /* CustomCell.m in Sources */,
 				28F06BEC1C477EEA0080CE06 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
